@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(32, 32, 32);
+    margin: auto;
+}
+
+header{
+    background-color: fuchsia;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+/* Using the flex display to setup a 'grid' of cards */
+
+.cardTable{
+    background-color: rgb(58, 140, 89); 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 50px;
+}
+
+/* Setting each row on the table as a 'fixed' row that doesn't wrap */
+
+.row{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    margin: 0;
+}
+
+img{
+    width: 150px;
+    height: 210px;
+}
+
+footer{
+    background-color: bisque;
+    text-align: center;
+    text-;
+}
+
+/* Not sure this was the best way, but made 12 cards on the table
+with a standard side, with mouse hover, the bottom image is 
+revealed. Wish I figured out how to do a click so they could be 
+flipped one at a time to make it more like a memory game, but 
+I may need JS for that or something, idk */
+
+#cardOne {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardOne:hover {
+    background: url("unicorn.png") no-repeat;
+}
+
+#cardTwo {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardTwo:hover {
+    background: url("rose.jpeg") no-repeat;
+}
+
+#cardThree {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardThree:hover {
+    background: url("fox.jpeg") no-repeat;
+}
+
+#cardFour {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardFour:hover {
+    background: url("dino.jpeg") no-repeat;
+}
+
+#cardFive {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardFive:hover {
+    background: url("school.jpeg") no-repeat;
+}
+
+#cardSix {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardSix:hover {
+    background: url("butterfly.jpeg") no-repeat;
+}
+
+#cardSeven {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardSeven:hover {
+    background: url("school.jpeg") no-repeat;
+}
+
+#cardEight {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardEight:hover {
+    background: url("unicorn.png") no-repeat;
+}
+
+#cardNine {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardNine:hover {
+    background: url("fox.jpeg") no-repeat;
+}
+
+#cardTen {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardTen:hover {
+    background: url("dino.jpeg") no-repeat;
+}
+
+#cardEleven {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardEleven:hover {
+    background: url("butterfly.jpeg") repeat;
+}
+
+#cardTwelve {
+    width: 150px;
+    height: 210px;
+    background: url("starry.jpeg") no-repeat;
+    margin: 25px;
+}
+#cardTwelve:hover {
+    background: url("rose.jpeg") no-repeat;
+}
